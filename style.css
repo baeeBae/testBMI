@@ -4,7 +4,7 @@
 			padding: 0;
 			text-align: center;
 			font-family: sans-serif;
-			background-image: linear-gradient(#6a47c7, #5330d3,#a686f7 );
+			background-image: linear-gradient(#a686f7, #5330d3, #6a47c7  );
 			min-height: 100vh;
 			color: #fff;
 		}
@@ -13,7 +13,7 @@
 			position: absolute;
 			top: 50%;
 			left: 50%;
-			background-color: #23012C;
+			background-color: #a686f7;
 			transform: translate(-50%, -50%);
 			padding: 20px;
 			border-radius: 10px;
