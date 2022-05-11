@@ -7,17 +7,28 @@
 			background-image: linear-gradient(#a686f7, #5330d3, #6a47c7  );
 			min-height: 100vh;
 			color: #fff;
+			
+			background-image: url('mai.jpg');
+			
+			background-position: center;
+			background-repeat: no-repeat;
+			
 		}
 		div{
 			width: 500px;
 			position: absolute;
 			top: 50%;
 			left: 50%;
-			background-color: #a686f7;
+			background-color: rgba(225,225,225,0.1);
 			transform: translate(-50%, -50%);
 			padding: 20px;
 			border-radius: 10px;
-			box-shadow: 1px 1px 20px #ee5253;
+			box-shadow: 5px 5px 30px rgba(0,0,0, 0.4);
+			
+			margin: 10px;
+			backdrop-filter: blur(5px);
+			-weblit-backdrop-filter: blur(5px);
+			
 		}
 		h1{
 			font-size: 30px;
@@ -28,7 +39,8 @@
 			text-align: left;
 			margin-left: 150px;
 		}
-		#w, #h{
+		#w, #h
+		{
 			color: #222f3e;
 			text-align: left;
 			font-size: 20px;
@@ -39,12 +51,14 @@
 			border-bottom: 1px solid #341f97;
 			width: 200px;
 		}
-			#w:focus, #h:focus{
+			#w:focus, #h:focus
+			{
 				border-bottom: 2px solid #341f97;
 				width: 300px;
 				transition: 0.5s;
 			}
-			#result{
+			#result
+			{
 				color: #341f97;
 			}
 			#btn{
